@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tic Tac Toe Challenge", "Tic Tac Toe Challenge\Tic Tac Toe Challenge.csproj", "{4EDC86CB-245D-4C27-A473-368A8B39CDAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tic Tac Toe Game", "Tic Tac Toe Challenge\Tic Tac Toe Game.csproj", "{4EDC86CB-245D-4C27-A473-368A8B39CDAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
