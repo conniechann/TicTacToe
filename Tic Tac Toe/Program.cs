@@ -34,15 +34,22 @@ namespace Tic_Tac_Toe_Challenge
                     try
                     {
                         choice = int.Parse(Console.ReadLine());
+
+                        if (choice < 1 || choice > 9)
+                        {
+                            throw new FormatException();
+                        }
+
                         validInput = true;
+                        // call replace char method
+                        ChoiceXorO(player, choice);
                     }
-                    catch (FormatException)
+                    catch (Exception)
                     {
                         validInput = false;
                         Console.WriteLine("Please select a valid number from the field.");
                     }
-                    // call replace char method
-                    ChoiceXorO(player, choice);
+
 
                 } while (!validInput);
             } while (true);
